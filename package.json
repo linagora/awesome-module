@@ -1,0 +1,21 @@
+{
+  "name": "awesome-module",
+  "version": "0.1.0",
+  "description": "A module definition for the awesome module manager",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "extend": "^2.0.0",
+    "q": "^1.0.1"
+  },
+  "author": "mbailly@linagora.com",
+  "license": "GPL",
+  "devDependencies": {
+    "closure-linter-wrapper": "^0.2.9",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-gjslint": "^0.1.5"
+  }
+}
