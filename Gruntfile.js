@@ -4,7 +4,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     jshint: {
-      files: ['Gruntfile.js', 'lib/**/*.js'],
+      files: ['Gruntfile.js', 'lib/**/*.js', 'index.js'],
       options: {
         jshintrc: '.jshintrc'
       }
@@ -22,6 +22,7 @@ module.exports = function(grunt) {
       src: '<%= jshint.files %>'
     }
   },
+  // fixjsstyle --disable 0110 -r lib -e ./node_modules
   fixjstyle: {
     options: {
       flags: [
