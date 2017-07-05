@@ -1,6 +1,6 @@
 {
   "name": "awesome-module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A module definition for the awesome module manager",
   "main": "index.js",
   "repository": {
