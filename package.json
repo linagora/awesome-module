@@ -1,11 +1,11 @@
 {
   "name": "awesome-module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A module definition for the awesome module manager",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://ci.open-paas.org/stash/scm/am/awesome-module.git"
+    "url": "https://ci.linagora.com/linagora/lgs/openpaas/awesome-module.git"
   },
   "directories": {
     "test": "test"
